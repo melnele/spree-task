@@ -1,0 +1,98 @@
+p{
+    margin: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.side-bar{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1; 
+    overflow-x: hidden;
+    float: left;
+    background-color: #fff;
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+    padding: 16px 24px;
+}
+
+.title{
+    font-family: Sequel Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0A47C4;
+}
+
+.profile{
+    margin-top: 42px;
+    display: flex;
+}
+
+.profile-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    float: right;
+}
+
+.profile-text .name{
+    font-size: 14px;
+    line-height: 21px;
+    color: #192A3E;
+}
+
+.profile-text .id{
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: #90A0B7;
+}
+
+.dashboard{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.side-bar-text{
+    margin-left: 14px;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #334D6E;
+}
+
+.side-bar-text:hover{
+    color: #0A47C4;
+    cursor: pointer;
+}
+
+.side-bar-container{
+    margin-top: 20px;
+    display: flex;
+    box-sizing: content-box;
+    justify-content: flex-start;
+}
+
+.requests-subtext-container{
+    margin-left: 48px;
+}
+
+hr{
+    width: 200px;
+    margin-top: 24px;
+    position: fixed;
+    left: 0;
+}
+
+.logout-container{
+    margin-top: 20px;
+    display: flex;
+    box-sizing: content-box;
+    justify-content: flex-start;
+    position: fixed;
+    bottom: 22px;
+}
